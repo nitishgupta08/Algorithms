@@ -1,3 +1,11 @@
+/*
+ * Created Date: Thursday, February 25th 2021, 5:38:35 pm
+ * Author: Nitish Kumar Gupta
+ * 
+ * Copyright (c) 2021 nitishgupta
+ */
+
+
 #include <iostream>
 
 using namespace std;
@@ -6,9 +14,9 @@ void InsertionSort(int *arr,int n) {
     for(int i=1;i<n;i++) {
         int j = i-1;
         int key = arr[i];
-        while(arr[j] > key && j>= 0) {
+        while(arr[j] > key && j> -1) {
             arr[j+1] = arr[j];
-            j = j-1;
+            j--;
         }
         arr[j+1] = key;
     }
