@@ -1,8 +1,16 @@
+/*
+ * Created Date: Friday, February 26th 2021, 9:51:34 am
+ * Author: Nitish Kumar Gupta
+ * 
+ * Copyright (c) 2021 nitishgupta
+ */
+
 #include <iostream>
 
 using namespace std;
 
 void BubbleSort(int *A, int n) {
+    //Flag makes this algorithm adaptive
     int flag = 0;
     for(int i=0;i<n-1;i++) {
         for(int j=0;j<n-i-1;j++) {
