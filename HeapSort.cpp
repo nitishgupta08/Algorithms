@@ -1,3 +1,10 @@
+/*
+ * Created Date: Saturday, February 27th 2021, 3:50:48 pm
+ * Author: Nitish Kumar Gupta
+ * 
+ * Copyright (c) 2021 nitishgupta
+ */
+
 #include <iostream>
 
 using namespace std;
