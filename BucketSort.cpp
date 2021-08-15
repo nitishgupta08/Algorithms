@@ -1,3 +1,12 @@
+/*
+ * Created Date: Saturday, February 27th 2021, 2:28:13 pm
+ * Author: GeeksforGeeks
+ * I understood this code later.
+ * 
+ * Copyright (c) 2021 nitishgupta
+ */
+
+
 #include <iostream>
 #include <vector>
 
