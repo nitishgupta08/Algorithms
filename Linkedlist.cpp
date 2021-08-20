@@ -39,6 +39,16 @@ class Linkedlist {
             head->data = n;
         }
 
+        //deconstructor
+        ~Linkedlist() {
+            Node<T> *p = head;
+            while(head) {
+                head = head->next;
+                delete p;
+                p = head;
+            }
+        }
+
 
         Node<T> *gethead() {
             return head;
