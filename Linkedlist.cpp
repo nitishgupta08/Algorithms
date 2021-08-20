@@ -277,6 +277,7 @@ void clearCin() {
 }
 
 void menu() {
+    system("clear");
     char choice;
     string s;
     int index,x;
@@ -416,6 +417,10 @@ void menu() {
             default:
                 cout << "Invalid option" << endl;
         }
+        clearCin();
+        cout << '\n' << "Press a key to continue...";
+        cin.get();
+        system("clear");
 
     }
     
