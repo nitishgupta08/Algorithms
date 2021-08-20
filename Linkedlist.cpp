@@ -371,7 +371,6 @@ void menu() {
                     cout << "Is " << vald << " present in the list: " << ld.searchElement(vald) << endl;
 
                 } 
-                cout << "Total number of elements: " << val << endl;
                 break;
             }
 
